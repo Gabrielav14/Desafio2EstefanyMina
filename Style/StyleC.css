@@ -1,0 +1,93 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: khaki;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+header{
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+nav{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav li{ 
+    display: inline;
+    font-size: 25px;
+    padding: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: beige;
+}
+nav a:hover{
+    text-decoration: underline red;
+}
+nav img{
+    width: 250px;
+}
+main{
+    padding: 30px;
+}
+h1{
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    
+}
+div{
+    flex-direction: column;
+}
+div p{
+    font-size: 25px;
+}
+div h3{
+    color:saddlebrown;
+}
+div button{
+    text-decoration: none;
+    color: black;
+    background-color:blanchedalmond;
+    font-size: 24px;
+}
+section img{
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.Producto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    padding: 30px;
+    gap: 30px;
+
+}
+.productos{
+    margin: 30px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgb(200, 206, 169);
+    box-shadow: 1px 1px 10px black;
+
+}
+.productos:hover{
+    background-color: lightgray;
+    box-shadow: 0px 5px 15px black;
+    transform: scale(1.05);
+}
+footer{
+    background-color:darkgoldenrod ;
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+}
