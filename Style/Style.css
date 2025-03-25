@@ -1,7 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-color: khaki;
+    background-color: rgb(248, 243, 200);
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: italic;
@@ -33,6 +33,11 @@ nav img{
 main{
     padding: 30px;
 }
+.h11{
+    box-shadow: 3px 3px 20px;
+    margin: 40px;
+    padding: 5px;
+}
 h1{
     text-align: center;
 }
@@ -51,13 +56,15 @@ div h3{
     color:saddlebrown;
 }
 div button{
-    text-decoration: none;
-    color: black;
     background-color:blanchedalmond;
     font-size: 24px;
 }
+div button a{
+    text-decoration: none;
+    color: red;
+}
 section img{
-    width: 150px;
+    width: 200px;
     margin-left: 20px;
     border-radius: 5px;
 }
@@ -72,15 +79,15 @@ section img{
 .productos{
     margin: 30px;
     width: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 20px;
     overflow: hidden;
-    background-color: rgb(200, 206, 169);
+    background-color: rgb(236, 234, 234);
     box-shadow: 1px 1px 10px black;
 
 }
 .productos:hover{
-    background-color: lightgray;
+    background-color: rgb(238, 243, 212);
     box-shadow: 0px 5px 15px black;
     transform: scale(1.05);
 }

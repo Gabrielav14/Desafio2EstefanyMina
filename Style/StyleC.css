@@ -33,6 +33,12 @@ nav img{
 main{
     padding: 30px;
 }
+.h11{
+    box-shadow: 3px 3px 20px;
+    margin: 40px;
+    padding: 5px;
+    background-color: antiquewhite;
+}
 h1{
     text-align: center;
 }
@@ -41,8 +47,12 @@ section{
     justify-content: center;
     
 }
-div{
+.diiv{
     flex-direction: column;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
 }
 div p{
     font-size: 25px;
@@ -51,15 +61,19 @@ div h3{
     color:saddlebrown;
 }
 div button{
-    text-decoration: none;
-    color: black;
     background-color:blanchedalmond;
     font-size: 24px;
+}
+div button a{
+    text-decoration: none;
+    color: red;
 }
 section img{
     width: 150px;
     margin-left: 20px;
     border-radius: 5px;
+    text-align: center;
+    
 }
 .Producto{
     display: flex;
@@ -72,10 +86,10 @@ section img{
 .productos{
     margin: 30px;
     width: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 20px;
     overflow: hidden;
-    background-color: rgb(200, 206, 169);
+    background-color: rgb(222, 223, 217);
     box-shadow: 1px 1px 10px black;
 
 }
